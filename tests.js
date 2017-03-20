@@ -9,8 +9,7 @@ test('Home router status', (t) => {
   },(res) => {
     t.equal(res.statusCode,200, 'should be 200');
     t.end();
-    console.log('work');
   })
-
+    t.equal(1,2,'should failed')
 
 });
